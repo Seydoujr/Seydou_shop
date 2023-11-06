@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="connexion.css">
+	<title>Formulaire</title>
+	<script type="text/javascript">
+		alert("Veuillez remplir le Formulaire de Connexion")
+		</script>
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<a href="#" class="logo">E-shop</a>
+			<ul>
+				<li><a href="#">Lien 1</a></li>
+				<li><a href="#">Lien 2</a></li>
+				<li><a href="#">Lien 3</a></li>
+				<li><a href="#">Lien 4</a></li>
+				<li>
+					<button class="btn" id="displayForm">Se connecter</button>
+				</li>
+			</ul>
+		</nav>
+		<section>
+			<div class="sec-container">
+				<div class="form-wrapper">
+					<div class="card">
+						<div class="card-header">
+							<div id="forLogin" class="form-header active">Se connecter</div>
+							<div id="forRegister" class="form-header">S'inscrire</div>
+						</div>
+							<div class="card-body" id="formContainer">
+								<form id="formLogin">
+									<input type="text" class="formControl" placeholder="@utilisateur">
+								    <input type="password" class="formControl" placeholder="@Mot de passe">
+									<button class="formButton">Connexion</button>
+								</form>
+								<form id="formRegister" class="toggleForm">
+									<input type="text" class="formControl" placeholder="@Utilisateur">
+									<input type="password" class="formControl" placeholder="@Mot de passe">
+									<input type="password" class="formControl" placeholder="@Confirmer mot de passe">
+									<button class="formButton">Inscription</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+	</div>
+	<footer>
+				<p>Copyrights<a href="#">E-Shop</a></p>
+	</footer>
+</body>
+</html>
